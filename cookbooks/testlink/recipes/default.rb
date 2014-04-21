@@ -1,4 +1,4 @@
-# Sets up Testlink 1.9
+# Sets up Testlink 1.9.2
 # 
 # Homepage: http://www.teamst.org/
 # Installation guide: http://www.teamst.org/_tldoc/1.8/installation_manual.pdf
@@ -20,7 +20,7 @@ directory app_dir do
   owner "root"
   action :create
 end
-
+# TODO Change below so it won't hardcoded.
 cookbook_file "/tmp/testlink-1.9.2.tar.gz" do
   source "testlink-1.9.2.tar.gz"
   mode 0755

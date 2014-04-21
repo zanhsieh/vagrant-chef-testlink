@@ -1,5 +1,5 @@
 name               "testlink"
-maintainer         "Rapid7, Inc."
+maintainer         "Ming Hsieh"
 license            "BSD"
 description        "Installs/Configures TestLink"
 version            "0.1.0"
